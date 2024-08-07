@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Interface</title>
+    <link rel="stylesheet" href="./styleLIVE.css">
+</head>
+<body>
+    <div class="vscode-container">
+        <div class="title-bar">
+            <div class="title"> STUDIO CODE DEMO </div>
+            <div class="title-buttons">
+                <button class="title-button minimize">-</button>
+                <button class="title-button maximize">□</button>
+                <button class="title-button close">×</button>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="sidebar">
+                <div class="sidebar-item">EXPLORER</div>
+                <div class="sidebar-item open-editors"> > OPEN EDITORS</div>
+                <div class="sidebar-item"> v DOCKER</div>
+                <div class="folder">
+                    <div class="folder-name"> > appproject</div>
+                </div>
+                <div class="folder">
+                    <div class="folder-name"> > db-docker</div>
+                    <div class="file active"> test.html</div>
+                </div>
+            </div>
+            <div class="editor-container">
+                <div class="tabs">
+                    <div class="tab active">test.html</div>
+                </div>
+                <div class="editor">
+                    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+    &lt;h1&gt;HELLO WORLD!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                    </code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./studioThu.js"></script>
+</body>
+</html>
